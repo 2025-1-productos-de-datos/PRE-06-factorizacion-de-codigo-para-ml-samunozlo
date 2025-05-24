@@ -1,11 +1,11 @@
-from homework.src.internals.calculate_metrics import calculate_metrics
-from homework.src.internals.parse_argument import parse_argument
-from homework.src.internals.prepare_data import prepare_data
-from homework.src.internals.print_metrics import print_metrics
-from homework.src.internals.save_model_if_better import save_model_if_better
-from homework.src.internals.select_model import select_model
+from homework.src._internals.calculate_metrics import calculate_metrics
+from homework.src._internals.parse_argument import parse_argument
+from homework.src._internals.prepare_data import prepare_data
+from homework.src._internals.print_metrics import print_metrics
+from homework.src._internals.save_model_if_better import save_model_if_better
+from homework.src._internals.select_model import select_model
 
-FILE_PATH = "data/winequality-red.csv"
+FILE_PATH = "homework/data/winequality-red.csv"
 TEST_SIZE = 0.25
 RANDOM_STATE = 123456
 

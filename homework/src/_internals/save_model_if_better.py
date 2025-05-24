@@ -2,8 +2,8 @@
 import os
 import pickle
 
-from homework.src.internals.compare_models import compare_models
-from homework.src.internals.save_model import save_model
+from homework.src._internals.compare_models import compare_models
+from homework.src._internals.save_model import save_model
 
 
 def save_model_if_better(model, x_test, y_test, save_path="models/estimator.pkl"):
